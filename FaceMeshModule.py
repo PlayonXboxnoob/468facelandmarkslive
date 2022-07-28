@@ -43,7 +43,7 @@ class FaceMeshDetector():
 
 
 def main():
-    cap = cv2.VideoCapture("Video.mp4")
+    cap = cv2.VideoCapture(0)
     pTime = 0
     detector = FaceMeshDetector(maxFaces=2)
     while True:
